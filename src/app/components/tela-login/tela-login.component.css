@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+.container {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.cabecalho {
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+.image {
+  background-image: url(../../assets/images/LogoRosa.png);
+  height: 107px;
+  width: 316px;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+.sobre {
+  position: absolute;
+  top: 18px;
+  left: 850px;
+  height: 100px;
+  width: 100px;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+}
+
+.layer {
+  background-color: rgba(143, 81, 202, 0.3);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.dir-content {
+  display: flex;
+  justify-content: center;
+  flex: 0.3;
+}
+.direita {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+}
+.login-content {
+  padding-top: -70px;
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+}
+.login input {
+  height: 50px;
+  width: 330px;
+  border: 1px solid #4a4a4a;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  font-size: 30px;
+}
+.login h6 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 120%;
+  color: antiquewhite;
+}
+.esqueci-wrapper {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.esqueci-wrapper a {
+  color: antiquewhite;
+  cursor: pointer;
+  font-family: Poppins;
+}
+.esqueci-wrapper a:hover {
+  color: #4a4a4a;
+  transition: 20ms;
+  cursor: pointer;
+  font-family: Poppins;
+}
+.button-wrapper {
+  padding: 80px;
+  display: flex;
+  flex: 0.1;
+  align-items: center;
+  justify-content: center;
+}
+.button-wrapper button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  background: #00bead;
+  /* Primary -1 */
+
+  border: 1px solid #00a697;
+  box-sizing: border-box;
+  /* Sombra padrão */
+
+  box-shadow: 0px 5px 4px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-wrapper button:hover {
+  background: #01d0be;
+  transition: 500ms;
+}
+.button-wrapper button h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  color: antiquewhite;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 20px;
+}
+.large-buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+}
+.cadastro {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.cadastro a {
+  color: antiquewhite;
+  cursor: pointer;
+  font-family: Poppins;
+}
+.cadastro a:hover {
+  color: antiquewhite;
+  transition: 200ms;
+  color: #4a4a4a;
+}
+.large-buttons {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 632px;
+  justify-content: center;
+  background-color: rgba(229, 66, 174, 1);
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0px 5px 4px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.large-buttons:hover {
+  background-color: #ff49c1;
+  transition: 200ms;
+}
+.large-buttons a h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  color: antiquewhite;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 20px;
+  text-decoration: none;
+}
+.large-buttons a {
+  text-decoration: none;
+}
+.login-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h4 {
+  padding-left: 50px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 120%;
+}
+@media (max-width: 500px) {
+  .container {
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../assets/images/BackgroundMedia.png);
+  }
+  .content {
+    padding-top: 55px;
+    display: flex;
+    position: relative;
+    flex: 1;
+  }
+  h4 {
+    display: none;
+  }
+  .cabecalho {
+    display: block;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-color: white;
+  }
+  .large-buttons {
+    position: relative;
+    width: 321px;
+    height: 40px;
+
+    /* Secondary 0 */
+
+    background: #e642ae;
+    /* Sombra padrão */
+
+    box-shadow: 0px 5px 4px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .layer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgba(143, 81, 202, 0);
+  }
+  .dir-content {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-top: 90px;
+    justify-content: center;
+  }
+  .button-wrapper {
+    padding: 5px;
+  }
+}
+@media (min-width: 501px) {
+  .content {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../../assets/images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+  }
+  .esq-container {
+    display: flex;
+    flex: 0.3;
+    height: 410px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+  }
+  .esquerda {
+    display: flex;
+    width: 615px;
+    height: 410px;
+    background: rgba(0, 190, 173, 0.6);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+}

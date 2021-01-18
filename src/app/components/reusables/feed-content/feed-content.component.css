@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.container {
+  display: flex;
+  width: 800px;
+  padding: 20px;
+  flex-direction: column;
+}
+.squares {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.square-btn {
+  margin: 20px;
+  height: 160px;
+  width: 160px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(0, 190, 173, 1);
+  box-shadow: 0px 5px 4px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.square-btn,
+.rect-btn-blue,
+.rect-btn-pink h1 {
+  font-family: Poppins;
+  color: white;
+}
+.buttons {
+  display: flex;
+}
+.rect-btn-blue {
+  margin: 20px;
+  height: 60px;
+  width: 360px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(0, 190, 173, 1);
+  box-shadow: 0px 5px 4px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rect-btn-pink {
+  margin: 20px;
+  height: 60px;
+  width: 360px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-color: #e642ae;
+  box-shadow: 0px 5px 4px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.left,
+.right {
+  display: flex;
+}
+@media (max-width: 500px) {
+  .container {
+    padding: 0px;
+    width: 360px;
+  }
+  .squares {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .square-btn {
+    height: 150px;
+    width: 150px;
+    margin: 0;
+  }
+  .left {
+    flex-direction: column;
+  }
+}

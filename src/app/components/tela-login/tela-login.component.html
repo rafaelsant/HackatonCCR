@@ -1,0 +1,55 @@
+<div class="container">
+    <header class="cabecalho">
+        <nav class="navbar">
+            <div class="image"></div>
+            <div class="sobre">
+                <button mat-icon-button class="sobre">
+                    <mat-icon class="icon">help</mat-icon>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="layer">
+            <div class="esq-container">
+                <div class="esquerda">
+                    <h4>Somos a maior plataforma aglutinadora de oportunidades para jovens conseguirem experiência e oportunidades de trabalho</h4>
+                </div>
+            </div>
+            <div class="dir-content">
+                <div class="direita">
+                    
+                    <div class="login-content">
+                        <div class="login">
+                            <h6>Email ou telefone</h6>
+                            <input type="text">
+                        </div>
+                        <div class="login">
+                            <h6>Senha</h6>
+                            <input type="password">
+                        </div>
+                        <div class="esqueci-wrapper">
+                            <a>Esqueci a senha</a>
+                        </div>
+                        <div class="button-wrapper">
+                            <button routerLink="/filmes/cadastro"><h5>Entrar</h5></button>
+                        </div>
+                    </div>
+                    
+                    <div class="large-buttons-wrapper">
+                        <div class="cadastro">
+                            <a>Cadastre-se agora</a>
+                        </div>
+                        <div class="large-buttons">
+                            <a routerLink='index/empresa' ><h5>Tenho uma oportunidade</h5></a>
+                        </div>
+                        <div  class="large-buttons">
+                            <a routerLink='index/cadastro'><h5>Quero uma oportunidade</h5></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+#foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /*include this*/
+  background-attachment: local;
+}
+.cabecalho {
+  display: flex;
+  max-width: 500px;
+  flex-direction: row;
+
+  padding: 20px;
+  margin: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.info .nome {
+  display: flex;
+  width: 300px;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 5px 0px 5px;
+  margin: 5px;
+}
+.info .interesse {
+  display: flex;
+  width: 300px;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+.col {
+  display: flex;
+}
+.info .idade {
+  display: flex;
+  width: 125px;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+.info .cidade {
+  display: flex;
+  width: 165px;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: px;
+  margin: 5px 5px 5px 3px;
+}
+.habilidades {
+  display: flex;
+  max-width: 500px;
+  height: 131px;
+  flex-direction: row;
+  background-color: #00bead;
+  border-radius: 5px;
+  box-shadow: 0px 5px 4px 3px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin-left: 5px;
+
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  margin-left: 20px;
+  margin-top: 70px;
+}
+.title h1 {
+  font-family: Poppins;
+}
+table {
+  width: 500px;
+  padding: 4;
+}
+td {
+  width: 125px;
+  height: 30px;
+}
+td span {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  color: azure;
+}
+td span mat-icon {
+  color: rgba(229, 66, 174, 1);
+}
+.curso {
+  display: flex;
+  width: 530px;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-family: Poppins;
+  display: flex;
+  width: 300px;
+  justify-content: start;
+  align-items: center;
+  padding: 20px;
+}
+.info h1 {
+  font-family: Poppins;
+  padding-left: 15px;
+}
+@media (max-width: 500px) {
+  .container {
+    align-items: center;
+    justify-content: center;
+  }
+  .cabecalho {
+    justify-content: center;
+    align-items: center;
+  }
+  td {
+    width: 125px;
+    height: px;
+  }
+  td span {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 13px;
+    color: azure;
+    height: 10px;
+    margin: -20px;
+    padding: -30px;
+  }
+  td span mat-icon {
+    color: rgba(229, 66, 174, 1);
+    font-size: 10px;
+    padding: -30px;
+  }
+  table {
+    width: 300px;
+    padding: -10px;
+    border-spacing: -3px;
+  }
+  .habilidades {
+    padding: 5px;
+  }
+  .title {
+    margin-top: 5px;
+  }
+  .col {
+    align-items: center;
+    justify-content: center;
+  }
+}
